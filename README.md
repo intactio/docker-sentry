@@ -11,6 +11,16 @@ regarding contributing and issues.
 The full readme is generated over in [docker-library/docs](https://github.com/docker-library/docs),
 specificially in [docker-library/docs/sentry](https://github.com/docker-library/docs/tree/master/sentry).
 
+# Additional items
+Forked from official docker-sentry (`getsentry/docker-sentry`)
+- install libldap2-dev, libsasl2-dev for sentry-ldap-auth
+
+# How to use
+add to requirements.txt
+```
+sentry-ldap-auth==2.7
+```
+
 ## docker-compose
 
 If you'd like to use docker-compose or try Sentry using Docker, head over to https://github.com/getsentry/onpremise.
