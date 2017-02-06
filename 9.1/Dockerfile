@@ -15,6 +15,8 @@ RUN apt-get update && apt-get install -y --no-install-recommends \
         libxslt-dev \
         libyaml-dev \
         pkg-config \
+        libldap2-dev \
+        libsasl2-dev \
     && rm -rf /var/lib/apt/lists/*
 
 # Sane defaults for pip
